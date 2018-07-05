@@ -19,7 +19,7 @@ Check out the documents tab for datasheets, Eagle schematics, and an Arduino lib
 P.S. if you need to go super-simple then you can actually play MP3s without another controller using the [Qwiic MP3 Trigger](https://www.sparkfun.com/products/14808)
 
 SparkFun labored with love to create this code. Feel like supporting open source hardware? 
-Buy a [breakout board](https://www.sparkfun.com/products/14714) from SparkFun!
+Buy a [breakout board](https://www.sparkfun.com/products/14810) from SparkFun!
 
 Repository Contents
 -------------------
