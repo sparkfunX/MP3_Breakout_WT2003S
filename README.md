@@ -1,23 +1,22 @@
-SparkFun Qwiic MP3 Trigger
+SparkX WT2003S MP3 Decoder Breakout
 ========================================
 
-![SparkFun Qwiic MP3 Trigger](https://cdn.sparkfun.com//assets/parts/1/2/9/2/9/14714-Qwiic_MP3-01.jpg)
+![SparkX WT2003S MP3 Decoder Beakout](https://cdn.sparkfun.com/assets/parts/1/3/0/7/7/14810-MP3_Breakout_WT2003S-01.jpg)
 
-[*SparkX Qwiic MP3 Trigger (SPX-14714)*](https://www.sparkfun.com/products/14714)
+[*SparkX Qwiic MP3 Trigger (SPX-14810)*](https://www.sparkfun.com/products/14810)
 
-Sometimes you just need an MP3 to play. Whether it's a sound track as you enter the room or a pirate cackling when a dollar [gets donated](https://github.com/nseidle/Money_Vacuum) to the kid's museum. The Qwiic MP3 Trigger takes care of all the necessary bits, all you need to do is send a simple I2C command and listen.
+The WT2003S makes playing MP3 files from an SD card dead simple! All you need to do is load your files onto the sd card, plug in your speakers, and then send a few commands over a serial connection. Any time that you need to play an MP3 this breakout board will do just the trick - for example making an alarm clock that plays your favorite music or maybe making an elaborate voicemail greeting prank...
 
-We've tried to think of everything a user may need. The Qwiic MP3 Trigger comes with a microB connector and the WT2003S MP3 decoder IC that gives you access to the files on the microSD card. Simply plug in the Qwiic MP3 Trigger and you'll be transferring MP3s. No need for drivers and no need for WAV or Vorbis conversion! Sound output is provided via a headphone jack or poke-home connector allowing an external speaker to be connected without soldering (be sure to see the note below). The speaker is boosted by a Class-D mono amplifier capable of outputting up to 1.4W. What does 1.4W mean? It's incredibly loud; great for making sure your mech effects are heard on the *con floor and wonderful for annoying your officemates. Volume is software selectable between 32 levels. Equalization can be tuned to be sure your classical hits sound different from your jazz dance routines (in all seriousness EQ selection is available but it's pretty paltry).
+A microSD card is used to store MP3 files to be played later, then a 3.5mm stereo headphone jack or poke-home speaker output is used to pipe your sound waves into the world. In between is the amazing WT2003S chip that handles the sd interface (via SPI) **and** the decoding of the MP3 format. Another perk is the built-in TPA2005D1 1.4W amplifier so that you can play songs out-loud right out of the box. All of these features fit on a single-sided PCB to make mounting a cinch. All you need to start playing MP3s in your project is:
 
-And if you don't want to deal with *any* programming, there are four trigger pins. When pin 3 is pulled low the T003.mp3 file will immediately be played. This allows you to start playing sound effects with the touch of a button! By pulling multiple pins down simultaneously the four triggers can play up to ten tracks: T001 to T010.
+- WT2003S breakout board
+- Serial connection (Arduino, FTDI converter, etc.)
+- A speaker or headphones
+- An SD card with your favorite jams!
 
-All settings including volume, EQ, and I2C address are stored in NVM and loaded at each power up. The I2C address of the Qwiic MP3 Trigger can be modified via a solder jumper or be assigned using a software command. Multiple Qwiic MP3 Triggers can be chained together on a single bus allowing for simultaneous track mixing and triggering.
+Check out the documents tab for datasheets, Eagle schematics, and an Arduino library that makes getting started too easy!
 
-We've provided a full suite of example sketches to get you started including: play track X, change volume, play next/previous, check if track is playing, stop play, change EQ, and change I2C address.
-
-For a limited time we are including a 512MB microSD card with every Qwiic MP3 Trigger purchased. These are perfect to store over 300 minutes of MP3s. We've preloaded the microSD card with four license-free MP3s so you can begin to blast sound effects immediately.
-
-This board is one of our many [Qwiic](https://www.sparkfun.com/qwiic) compatible boards! Simply plug and go. No soldering, no figuring out which is SDA or SCL, and no voltage regulation or translation required!
+P.S. if you need to go super-simple then you can actually play MP3s without another controller using the [Qwiic MP3 Trigger](https://www.sparkfun.com/products/14808)
 
 SparkFun labored with love to create this code. Feel like supporting open source hardware? 
 Buy a [breakout board](https://www.sparkfun.com/products/14714) from SparkFun!
